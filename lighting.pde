@@ -3,7 +3,7 @@ PImage wallTexture, skyTexture, floorTexture, tableTexture, chairTexture;
 int rotationX, rotationY, angleX, angleY, lightChoice;
 float cameraZ, cameraDespX, cameraDespY, cameraDespZ, cameraX, cameraY, cameraLookAtX, cameraLookAtY, cameraLookAtZ, upY;
 final String[] lightType = {"Default light", "Ambient light (light pink)", "Point light (light blue)", "Spotlight (wine)", "Directional light (light red)"};
-final String controlsText = "Use WS to move forward and backwards\n" + "Use AD to move sideways\n" + "Use CZ to move down and up\n" + "Use QE to rotate sideways\n" + "Use SHIFT and CONTROL to rotate vertically\n" + "To control the lighting press L\n" + "Press ENTER to start the simulation"; 
+final String controlsText = "Use WS to move forward and backwards\n" + "Use AD to move sideways\n" + "Use CZ to move down and up\n" + "Use QE to rotate sideways\n" + "Use SHIFT and CONTROL to rotate vertically\n" + "Press R to reset your position\n" + "To control the lighting press L\n" + "Press ENTER to start the simulation"; 
 boolean simulation;
 
 void setup(){
